@@ -18,12 +18,6 @@ deleting some (can be none) of the characters without disturbing the relative po
 // * whenever we run into the letter that the iterator for sMap points to, move up the iterator
 // * at the end of the scan through tMap, if the iterator == sMap.count, then return true; otherwise return fale
 
-// ~ O(n) time
-// ~ O(n) space
-
-// Relevant Questions:
-// * if s and t are both empty, is s a subsequence of t? I guess so.
-// * if s is empty, is s a subsequence of t? I guess so
 
 class Solution {
     func isSubsequence(_ s: String, _ t: String) -> Bool {
@@ -54,3 +48,6 @@ class Solution {
         return false
     }
 }
+
+// ~ O(n) time
+// ~ O(n) space
