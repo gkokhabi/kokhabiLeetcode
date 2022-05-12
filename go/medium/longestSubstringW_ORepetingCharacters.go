@@ -6,8 +6,6 @@ Given a string s, find the length of the longest substring without repeating cha
 */
 
 
-
-
 func lengthOfLongestSubstring(s string) int {
 	n := len(s)
 
